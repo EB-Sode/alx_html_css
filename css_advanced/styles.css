@@ -133,3 +133,36 @@ body {
   border-radius: 50%;
   margin-bottom: 10px;
 }
+
+.quote {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 60px 20px;
+  background-color: rgba(194, 113, 255, 1);
+  color: white
+}
+
+.quote > div {
+  justify-content: center;
+  gap: 30px;
+  max-width: 800px;
+}
+
+.quote img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  object-fit: cover;
+  margin: 40px
+}
+
+.quote blockquote {
+  font-style: italic;
+  margin: 0 0 10px;
+}
+
+.quote h3 {
+  margin: 0;
+  font-size: 1.2rem;
+}
