@@ -22,7 +22,7 @@ aside{
 article, aside {
     overflow-y: auto;
 }
-a   {
+a:hover  {
     color: brown;
 }
 
