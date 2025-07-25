@@ -98,9 +98,9 @@ body {
   color: #ffffff;
 }
 
-.broad button {
+.button {
   display: block;
-  margin: 30px auto 0;
+  margin: 30px auto 30px;
   padding: 12px 24px;
   font-size: 1rem;
   background-color: #81348f;
@@ -177,7 +177,6 @@ body {
     justify-content: center;
     align-items: center;
     padding: 20px 100px;
-    border-style: dashed;
     margin: 0 50px;
 }
 
@@ -268,25 +267,123 @@ body {
   align-items: flex-start;
   gap: 10px;
 }
-
 .rater-info {
   display: flex;
   flex-direction: column;
   gap: 4px;
 }
-
 .rater-info h5 {
   margin: 0;
   font-size: 16px;
 }
-
 .fa-star {
-  color: #7c13a2;
+  /* color: #7c13a2; */
   font-size: 16px;
+  display: inline;
+}
+.stars {
+  display: flex;
+  align-items: center;
+  gap: 10px; /* adjust spacing as needed */
+  font-size: 13px;
+  margin: 0;
+  justify-content: space-between;
+  color: rgba(194,113,255,1);
 }
 
-.rater-info p {
-  font-size: 13px;
-  color: #777;
-  margin: 0;
+.stars p {
+    color:rgba(194,113,255,1);
+}
+#para {
+    color: rgba(7,22,41, 0.5)
+}
+
+#member h2 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color:white;
+    padding-top: 20px;
+}
+#member {
+    background-color: black;
+}
+#member h2 span {
+    color:rgba(194,113,255,1);
+}
+.membership {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+   
+    height: 20vh;
+    background-color: black;
+}
+
+.mem {
+  text-align: center;
+  padding: 20px;
+  max-width: 400px;
+  color:#f9f9f9;  /* optional styling */
+  border-radius: 10px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+.mem .logos {
+    font-size:x-large;
+}
+
+h2 span {
+    display: inline-block;
+    margin: 0 8px;
+}
+.butt {
+    margin-bottom: 50px;
+    padding-bottom: 50px;
+}
+
+.FAQ {
+  max-width: 1000px;
+  margin: 0 auto;
+  padding: 40px 20px;
+  font-family: Arial, sans-serif;
+}
+
+.FAQ h2 {
+  text-align: center;
+  font-size: 2.5rem;
+  margin-bottom: 40px;
+}
+
+.row {
+  display: flex;
+  gap: 40px;
+  margin-bottom: 30px;
+  flex-wrap: wrap;
+}
+
+.item {
+  flex: 1;
+  min-width: 300px;
+  background-color: #f9f9f9;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.05);
+  transition: transform 0.3s ease;
+}
+
+.item:hover {
+  transform: translateY(-5px);
+}
+
+.item h4 {
+  margin-bottom: 10px;
+  font-size: 1.25rem;
+  color: #333;
+}
+
+.item p {
+  font-size: 1rem;
+  color: #555;
+  line-height: 1.6;
 }
