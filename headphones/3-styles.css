@@ -140,7 +140,100 @@ main h5 {
     margin: 50px 0;
 }
 
+.sec_b {
+    background-color: #fff; /* White background */
+    display: flex;
+    flex-direction: column; /* Stack the text and icons vertically */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically if needed */
+    padding: 40px 20px; /* Space around content */
+    text-align: center; /* Center text inside */
+    min-height: 50vh;
+}
 
+.par_b {
+    max-width: 700px; /* Limit paragraph width for readability */
+    margin-bottom: 30px; /* Space between text and icons */
+
+}
+
+.tunes {
+    margin: 30px;
+    display: flex;
+    flex-wrap: wrap; /* Wrap on smaller screens */
+    justify-content: center; /* Center horizontally */
+    gap: 30px; /* Space between each icon+text */
+}
+
+.tunes div {
+    max-width: 200px; /* Keep each icon block narrow */
+}
+
+.tunes svg {
+    display: block;
+    margin: 20px auto 20px auto; /* Center SVG and add space below */
+    padding: 20px 0;
+}
+
+.tunes p {
+    font-size: 14px;
+    color: #333; /* Dark text */
+}
+
+
+.lines {
+    margin: 50px 0px;
+    padding-top: 50px;
+    display: flex;
+    flex-direction: column;  /* Stack items vertically */
+    align-items: center;     /* Center horizontally */
+    gap: 15px;               /* Space between each item */
+}
+
+.lines hr {
+    width: 10%;              /* Shorten the lines */
+    border: none;
+    border-top: 2px solid #ccc;
+    margin: 10px;
+}
+
+.lines button {
+    padding: 10px 20px;
+    background: #ff6600;
+    color: white;
+    border: none;
+    border-radius: 50px;
+    cursor: pointer;
+}
+.center-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* Fill screen height */
+}
+
+.sec_c {
+    background-image: url('backgd.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    color: white;
+    min-height: 65vh;
+    position: relative;
+    padding: 100px 20px;
+    display: flex;
+    flex-direction: column; /* Stack the text and icons vertically */
+    text-align: center; /* Center text inside */
+    align-items: center; /* Center horizontally */
+    justify-content: center; /* Center vertically if needed */
+    padding: 40px 20px; /* Space around content */
+}
+
+.sec_c p {
+    max-width: 700px;
+    padding: 20px 0;
+    margin: 20px 0;
+}
 
 @media (max-width: 768px) {
     header {
